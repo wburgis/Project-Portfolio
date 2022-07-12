@@ -1,0 +1,27 @@
+{
+  "name": "project-portfolio",
+  "version": "1.0.0",
+  "description": "project portfolio of will burgis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wburgis/Project-Portfolio.git"
+  },
+  "keywords": [
+    "will",
+    "burgis",
+    "development",
+    "portfolio",
+    "notre",
+    "dame"
+  ],
+  "author": "Will Burgis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wburgis/Project-Portfolio/issues"
+  },
+  "homepage": "https://github.com/wburgis/Project-Portfolio#readme"
+}
