@@ -1,0 +1,34 @@
+{
+  "name": "project-portfolio",
+  "version": "1.0.0",
+  "description": "project portfolio of will burgis",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm rebuild",
+    "code:check": "yarn code:lint && yarn code:format --check",
+    "validate": "run-p --print-label lint typecheck test build",
+    "preversion": "git pull",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wburgis/Project-Portfolio.git"
+  },
+  "keywords": [
+    "will",
+    "burgis",
+    "development",
+    "portfolio",
+    "notre",
+    "dame"
+  ],
+  "author": "Will Burgis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wburgis/Project-Portfolio/issues"
+  },
+  "homepage": "https://github.com/wburgis/Project-Portfolio#readme",
+  "dependencies": {
+    "yarn": "^1.22.19"
+  }
+}

@@ -1,2 +1,1 @@
-# Project-Portfolio
-Portfolio of my recent projects and work!
+Will Burgis's Development Portfolio!
