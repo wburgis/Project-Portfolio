@@ -4,7 +4,11 @@
   "description": "project portfolio of will burgis",
   "main": "index.js",
   "scripts": {
-    "build": "npm run build"
+    "build": "react-scripts build",
+    "code:check": "yarn code:lint && yarn code:format --check",
+    "validate": "run-p --print-label lint typecheck test build",
+    "preversion": "git pull",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
