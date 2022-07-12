@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/wburgis/Project-Portfolio/issues"
   },
-  "homepage": "https://github.com/wburgis/Project-Portfolio#readme"
+  "homepage": "https://github.com/wburgis/Project-Portfolio#readme",
+  "dependencies": {
+    "yarn": "^1.22.19"
+  }
 }
